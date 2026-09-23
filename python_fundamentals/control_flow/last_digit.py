@@ -2,8 +2,7 @@
 number = __import__('random').randint(-10000, 10000)
 
 # converts the integer into a string
-digit_str = str(number)
-
+digit_str = str(abs(number))
 # pulling last digit
 last_digit = digit_str[-1]
 
