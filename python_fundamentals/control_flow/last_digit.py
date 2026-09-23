@@ -6,7 +6,7 @@ digit_str = str(abs(number))
 # pulling last digit
 last_digit = digit_str[-1]
 
-# convert back to an integer
+# convert back to an intege
 digit = int(last_digit)
 
 if digit > 5:
