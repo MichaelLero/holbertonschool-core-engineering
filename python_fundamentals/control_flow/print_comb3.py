@@ -4,8 +4,8 @@ result = []
 
 for first in range(10):
     for second in range(first + 1, 10):
-        result.append(f"{first}{second}")
+        formatted_pair = "{:01d}{:01d}".format(first, second)
+        result.append(formatted_pair)
 
 output = ", ".join(result)
-
 print(output)
