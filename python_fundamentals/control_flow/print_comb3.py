@@ -4,8 +4,6 @@ result = []
 
 for first in range(10):
     for second in range(first + 1, 10):
-        formatted_pair = "{:01d}{:01d}".format(first, second)
-        result.append(formatted_pair)
+        result.append("{:02d}".format((first * 10) + second))
 
-output = ", ".join(result)
-print(output)
+print(", ".join(result))
