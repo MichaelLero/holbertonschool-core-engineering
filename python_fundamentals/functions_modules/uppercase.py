@@ -18,5 +18,3 @@ def uppercase(str):
         # Print the character without adding a newline (end="")
         print("{}".format(c), end="")
 
-    # Print a single newline after the entire string has finished printing
-    print("")
