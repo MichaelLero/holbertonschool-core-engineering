@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def islower(c):
-    print(99 == ord(c))
+    print(97 <= ord(c) <= 122)
 
 
-islower('c')
+islower('a')
