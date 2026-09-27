@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 def uppercase(str):
     # Iterate through each character in the string one by one
