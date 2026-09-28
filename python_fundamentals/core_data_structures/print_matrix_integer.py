@@ -2,6 +2,7 @@
 
 def print_matrix_integer(matrix=[[]]):
     for row in matrix:
-        # Call str.format(template, data) explicitly
-        output = str.format("{}", row)
-        print(output)
+        # 1. Convert numbers to strings and join them with a space
+        row_string = " ".join(map(str, row))
+        # 2. Print using str.format() on the single line
+        print(str.format("{}", row_string))
