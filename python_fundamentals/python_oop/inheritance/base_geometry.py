@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""Module that defines the base of different shape classes"""
+
+
+
 class BaseGeometry:
 
     def area(self):
