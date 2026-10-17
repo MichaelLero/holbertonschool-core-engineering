@@ -9,4 +9,4 @@ def read_file(filename=""):
         content = f.read()
         # Print without adding an extra newline at the end,
         # so the output matches the file exactly
-        print(content, end="")
+        print(content)
