@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Utility module for reading and displaying text files."""
 
 def read_file(filename=""):
     """Read a text file (UTF-8) and print its contents to stdout."""
