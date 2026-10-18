@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Utility module for reading and displaying text files."""
 
+
 def read_file(filename=""):
-    """Read a text file (UTF-8) and print its contents to stdout."""
-    # Open the file in read mode, explicitly using UTF-8 encoding.
-    # The "with" block closes the file automatically when we're done.
+    """Read a UTF-8 text file and print its contents to stdout."""
+    # Open in read mode with explicit UTF-8 encoding; the "with" block
+    # closes the file automatically, even if an error occurs.
     with open(filename, "r", encoding="utf-8") as f:
         # Read the entire file into a single string
         content = f.read()
-        # Print without adding an extra newline at the end,
-        # so the output matches the file exactly
-        print(content)
+        # end="" stops print from adding an extra newline, so the output
+        print(content, end="")
